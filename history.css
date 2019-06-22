@@ -1,0 +1,102 @@
+a
+{
+	text-decoration: none;
+	color: black;
+}
+a:hover
+{
+	text-decoration: none;
+	color: white;
+}
+body
+{
+	background-color: #eae6e6;
+}
+#div1
+{
+	color: white;
+	padding: 20px;
+	padding-left: 4px;
+	font-size: 26pt; 
+	font-family: sans-serif;
+	letter-spacing: 1px;
+}
+#sidebar1
+{
+	min-height: 1800px;
+	padding-right: 8px;
+	padding-left: 8px;
+	/*width: 200px;*/
+	margin: 10px;
+	margin-left: 5px; 
+	background-color: grey;
+	height: 100%;
+}
+#line
+{
+	justify-content: space-around;
+	margin-left: 10%;
+	height: 5px;
+	width: 80%;
+	background-color: black;
+}
+.contain
+{
+	flex-wrap: wrap;
+	margin: 0px;
+	padding: 0px;
+}
+.link
+{
+	color: black;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.link:hover
+{
+	transition: all 0.4s ease-in-out;
+	background-color: black;
+	color: white;
+}
+.margin
+{
+	margin: 10px;
+}
+@media (max-width: 575.98px) {
+	#sidebar1{
+		display: none;
+	}
+	#sidebar2{
+		display: none;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 712px) { 
+	#sidebar2{
+		height: 100px;
+	}
+ }
+ #linkk
+{
+	background-color: lightgrey;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 13px;
+	padding-bottom: 10px;
+	letter-spacing: 1px;
+	font-family: sans-serif;
+	font-weight: lighter;
+	color: black;
+	border: 0px solid black;
+	border-radius: 32px;
+}
+ #linkk:hover
+{
+	transition: all 0.4s linear;
+	background-color: black;
+	color: white;
+}
